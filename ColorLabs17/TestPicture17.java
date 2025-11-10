@@ -19,22 +19,22 @@ public class TestPicture17
   public static void main(String[] args)
   {
       //opens picture using a dialog box
-      /**/
+      /*
      String fileName = FileChooser.pickAFile();
      Picture pictObj = new Picture(fileName);
-     pictObj.explore();
+     pictObj.explore();*/
 
      //opens a pictue using a path
      //Picture apic = new Picture("C:\\Users\\khayes\\Favorites\\Documents\APCS- Java\chap03\Curriclum 2013\Picture Color labs\images\\beach.jpg");
      
-     //relative path
+     //relative path            dir/folder/file
      Picture apic = new Picture("images\\beach.jpg");
      Picture ferris1 = new Picture("images/2000 ferris wheel2.jpg");
      Picture ferris2 = new Picture("images/2000 ferris wheel2.jpg");
      Picture ferris3 = new Picture("images/2000 ferris wheel2.jpg");
 
      //apic.explore();
-     ferris1.explore();
+     
      
      //makes an array of pixels
      Pixel[] pixels;
@@ -53,12 +53,30 @@ public class TestPicture17
     
     System.out.println(pixels[17].getColor());
     System.out.println(spot);
-/*
+
     pixels[17].setColor(Color.blue);
     spot.setColor(new Color(252,252,252));
     pixels[500034].setColor(Color.blue);
-
     ferris1.explore();
+    /*
+    int red;
+    for (Pixel spot1 : pixels) {
+        red = spot1.getRed();
+        red = (int)(red * 0.25);
+        spot1.setRed(red);
+    }
+    ferris1.explore();
+    */
+   int blue, green, red;
+   for (Pixel cspot : pixels) {
+       blue = (int)(cspot.getBlue() * Math.random());
+       red = (int)(cspot.getRed() * Math.random());
+       green = (int)(cspot.getGreen() * Math.random());
+       cspot.setBlue(blue);
+       cspot.setGreen(green);
+       cspot.setRed(red);
+   }
+   ferris1.explore();
 /*
    // loop to access indexes of array or collection
 
