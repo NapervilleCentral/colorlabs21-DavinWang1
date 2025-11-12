@@ -77,6 +77,7 @@ public class TestPicture17
        cspot.setRed(red);
    }
    ferris1.explore();
+   ferris1.write("images/");
 /*
    // loop to access indexes of array or collection
 
