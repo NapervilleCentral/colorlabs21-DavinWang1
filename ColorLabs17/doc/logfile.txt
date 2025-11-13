@@ -20,114 +20,12 @@ C:\Users\dfwang\Desktop\AP CS\colorlabs21-DavinWang1\ColorLabs17\doc
 UTF-8
 -charset
 UTF-8
-C:\Users\dfwang\Desktop\AP CS\colorlabs21-DavinWang1\ColorLabs17\PixelTest.java
+C:\Users\dfwang\Desktop\AP CS\colorlabs21-DavinWang1\ColorLabs17\Pixel.java
 <---- end of javadoc command ---->
-Loading source file C:\Users\dfwang\Desktop\AP CS\colorlabs21-DavinWang1\ColorLabs17\PixelTest.java...
+Loading source file C:\Users\dfwang\Desktop\AP CS\colorlabs21-DavinWang1\ColorLabs17\Pixel.java...
 Constructing Javadoc information...
-warning: unknown enum constant Status.STABLE
-  reason: class file for org.apiguardian.api.API$Status not found
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
-warning: unknown enum constant Status.STABLE
 Standard Doclet version 21.0.4+7-LTS
 Building tree for all the packages and classes...
-Generating C:\Users\dfwang\Desktop\AP CS\colorlabs21-DavinWang1\ColorLabs17\doc\PixelTest.html...
+Generating C:\Users\dfwang\Desktop\AP CS\colorlabs21-DavinWang1\ColorLabs17\doc\Pixel.html...
 Generating C:\Users\dfwang\Desktop\AP CS\colorlabs21-DavinWang1\ColorLabs17\doc\package-summary.html...
 Generating C:\Users\dfwang\Desktop\AP CS\colorlabs21-DavinWang1\ColorLabs17\doc\index.html...
-100 warnings

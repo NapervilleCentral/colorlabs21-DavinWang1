@@ -25,14 +25,11 @@ public class SheparFaireyLab
         //pictObj.explore();
          
         //relative path
-        Picture apic = new Picture("images\\beach.jpg");
+        Picture selfie = new Picture("images/photo.jpg");
         //change with selfie picture
-        Picture me = new Picture("images/beach.jpg");
-        Picture me1 = new Picture("images/beach.jpg");
-        Picture me2 = new Picture("images/beach.jpg");
-         
-        apic.explore();
-        Pixel[] pixels = apic.getPixels();
+                 
+        selfie.explore();
+        Pixel[] pixels = selfie.getPixels();
         int avgColor, minColor = 256, maxColor = -1;
         
         for (Pixel pixel : pixels) {
@@ -43,14 +40,13 @@ public class SheparFaireyLab
             if (avgColor > maxColor)
                 maxColor = avgColor;
         }
-        System.out.println(minColor + ", " + maxColor);
-        apic.explore();
+        selfie.explore();
         
         
-         /**
-          * method 1 change
-          * 
-          */
+        /**
+         * method 1 change
+         * 
+        
         int color;
         for (Pixel pixel : pixels) {
             color = pixel.getRed();
@@ -63,18 +59,53 @@ public class SheparFaireyLab
             else
                 pixel.setColor(new Color(250, 249, 246));
         }
-        apic.explore();
+        selfie.explore();
+        */
+        
+       
+       
+        /**
+         * method 2 change
+         * 
+        int color;
+        int range = maxColor - minColor;
+        for (Pixel pixel : pixels) {
+            color = pixel.getRed();
+            if (color < (minColor + range / 4))
+                pixel.setColor(new Color(0, 0, 139));
+            else if (color < (minColor + range * 2 / 4))
+                pixel.setColor(new Color(200, 0, 0));
+            else if (color < (minColor + range * 3 / 4))
+                pixel.setColor(new Color(173, 216, 230));
+            else
+                pixel.setColor(new Color(246, 238, 227));
+        }
+        selfie.explore();
+        */
         
         
-         /**
-          * method 2 change
-          * 
-          */
-         
-         /**
-          * custom color palette
-          */
-
-         
+        
+        /**
+         * custom color palette
+         */
+        int color;
+        int range = maxColor - minColor;
+        for (Pixel pixel : pixels) {
+            color = pixel.getRed();
+            if (color < (minColor + range / 4))
+                pixel.setColor(new Color(150, 0, 0));
+            else if (color < (minColor + range * 2 / 4))
+                pixel.setColor(new Color(20, 20, 180));
+            else if (color < (minColor + range * 3 / 4))
+                pixel.setColor(new Color(173, 216, 230));
+            else
+                pixel.setColor(new Color(246, 238, 227));
+        }
+        selfie.explore();
+        selfie.write("images/photo3.jpg");
+        
+        
+        
+        
     }//main       
 }//class
