@@ -102,7 +102,7 @@ public class SheparFaireyLab
                 pixel.setColor(new Color(247, 150, 72));
         }
         selfie.explore();
-        selfie.write("images/SFtry34jpg");
+        selfie.write("images/SFMyFinal.jpg");
         
         
         
