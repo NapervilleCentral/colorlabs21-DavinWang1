@@ -93,16 +93,16 @@ public class SheparFaireyLab
         for (Pixel pixel : pixels) {
             color = pixel.getRed();
             if (color < (minColor + range / 4))
-                pixel.setColor(new Color(77, 61, 147));
+                pixel.setColor(new Color(126, 55, 165));
             else if (color < (minColor + range * 2 / 4))
-                pixel.setColor(new Color(44, 124, 128));
+                pixel.setColor(new Color(44, 150, 146));
             else if (color < (minColor + range * 3 / 4))
-                pixel.setColor(new Color(144, 231, 88));
+                pixel.setColor(new Color(198, 198, 6));
             else
-                pixel.setColor(new Color(214, 246, 95));
+                pixel.setColor(new Color(247, 150, 72));
         }
         selfie.explore();
-        selfie.write("images/SFtry1.jpg");
+        selfie.write("images/SFtry34jpg");
         
         
         
